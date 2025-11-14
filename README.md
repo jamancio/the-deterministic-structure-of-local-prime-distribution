@@ -1,4 +1,4 @@
-# The Deterministic Structure of Local Prime Distribution: A Computational Proof for $100\%$ Local Prime Prediction
+# The Deterministic Structure of Local Prime Distribution: A Computational Proof for 100% Local Prime Prediction
 
 **Author**: Independent Researcher
 
