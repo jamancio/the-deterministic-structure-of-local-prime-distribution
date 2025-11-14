@@ -70,7 +70,7 @@ All primes greater than 3 must conform to the $6k \pm 1$ structure. This constra
 - **Messy Bin:** Anchors where $S_n \equiv 2 \pmod 6$ or $S_n \equiv 4 \pmod 6$
 - **Impossible Bins:** Anchor where $S_n \equiv 1, 3, 5 \pmod 6$ (structural impossibility)
 
-Computational Analysis over 50M prime pairs established the precise **structural failure rates** (Law I Failures, where the distance $k_min$ to the nearest prime is composite) for these bins:
+Computational Analysis over 50M prime pairs established the precise **structural failure rates** (Law I Failures, where the distance $k_{min}$ to the nearest prime is composite) for these bins:
 
 | $S_n \pmod 6$ Residue | Structural Failure Rate (%) | Implication for Prediction            |
 | :-------------------- | :-------------------------- | :------------------------------------ |
@@ -99,10 +99,11 @@ The first attempt to solve the 39.51% of failures was a complex, recursive "Chai
 The 75.94% dead end forced a return to simplicity. A forensic analysis (`Test 39`) of the 39.51% of failures revealed the final, simple truth:
 In 100% of failures, the True Prime was the prime with the **lowest gap in the "Messy" bin**.
 
-The 100% solution is not a complex recursive fix, but a simple, non-recursive **Analytic Logic Gate ($\mathbf{f}(\mathbf{p}_n)$)** that "flips" the prediction based on this one structural rule.
+The 100% solution is not a complex recursive fix, but a simple, non-recursive **Analytic Logic Gate** ($$\mathbf{f}(\mathbf{p}_n)$$) that "flips" the prediction based on this one structural rule.
 
 The Logic Gate is defined by the condition $\mathbf{X}$ (the "Internal Flip"):
-$$\mathbf{f}(\mathbf{p}_n) = \begin{cases} -1 \text{ (Flip)}, & \text{if } \mathbf{\text{Gap}_{\text{Messy\_Low}} < \text{Gap}_{\text{Winner}}} \\ +1 \text{ (Trust)}, & \text{otherwise} \end{cases}$$
+
+$$\mathbf{f}(\mathbf{p}_n) = \begin{cases} -1 \text{ (Flip)}, & \text{if } \text{Gap}_{\text{Messy}_{Low}} < \text{Gap}_{\text{Winner}} \\\ +1 \text{ (Trust)}, & \text{otherwise} \end{cases}$$
 
 ### 4.4 Verification (Closed and Open Pool)
 
