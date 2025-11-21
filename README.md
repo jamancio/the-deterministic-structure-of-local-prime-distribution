@@ -260,4 +260,4 @@ We have proven that:
 3.  **Prime Gaps** are quantized into mutually exclusive channels.
 4.  **The Structure is Fractal:** The resistance of the Clean Channel collapses toward zero at higher Primorials, providing the geometric mechanism for infinite prime generation.
 
-The PLR Theorem asserts that the apparent chaos of the prime numbers is merely the superposition of strictly ordered modular waveforms. When these waveforms are separated by the "Messiness" metric, the structure becomes predictable, stable, and precise.
+The PLR asserts that the apparent chaos of the prime numbers is merely the superposition of strictly ordered modular waveforms. When these waveforms are separated by the "Messiness" metric, the structure becomes predictable, stable, and precise.
