@@ -23,13 +23,13 @@ The fundamental challenge of Analytic Number Theory is distinguishing prime numb
 
 This paper introduces a third approach: **Geometric Sieving.**
 
-We propose that the location of prime numbers is not random but is constrained by a deterministic **Fractal Hierarchy** rooted in the Primorials ($P\#$). By mapping the "Structural Resistance" of integers modulo $P\#$, we identify specific geometric channels where prime gaps are structurally favored ("The Vacuum") and others where they are structurally suppressed ("The Resistance").
+We propose that the location of prime numbers is not random but is constrained by a deterministic **Fractal Hierarchy** rooted in the Primorials ($P_{k_{th}}$). By mapping the "Structural Resistance" of integers modulo $P_{k_{th}}$, we identify specific geometric channels where prime gaps are structurally favored ("The Vacuum") and others where they are structurally suppressed ("The Resistance").
 
 ### 1.1. The Unified Framework
 
 Our system is built on three foundational components:
 
-- **The Prime Anchor System (PAS):** A classifier that sorts prime gaps into "Clean" ($0 \pmod{P\#}$) and "Messy" ($2, 4 \pmod{P\#}$) bins.
+- **The Prime Anchor System (PAS):** A classifier that sorts prime gaps into "Clean" ($0 \pmod{P_{k_{th}}}$) and "Messy" ($2, 4 \pmod{P_{k_{th}}}$) bins.
 - **The Primorial Anchor Conjecture (PAC):** The hypothesis that the "Clean Channel" becomes asymptotically frictionless at higher Primorial resolutions.
 - **The Path of Least Resistance (PLR):** A computational logic gate that functions as a **High-Speed Filter**, rejecting high-resistance candidates (>50% of the number line) to isolate the trajectory of the prime sequence.
 
@@ -317,21 +317,21 @@ This data proves that the **1.45%** constant derived at Mod 6 is the weighted av
 
 ### 6.2. Fractal Smoothing (The Vacuum Effect)
 
-We hypothesized that as the Primorial resolution increases, the 'Structural Resistance' of the Cleanest Channel ($0 \pmod{P\#}$) should drop toward zero. As illustrated in Figure 4, this results in a logarithmic collapse of composite noise.
+We hypothesized that as the Primorial resolution increases, the 'Structural Resistance' of the Cleanest Channel ($0 \pmod{P_{k_{th}}}$) should drop toward zero. As illustrated in Figure 4, this results in a logarithmic collapse of composite noise.
 
 **Table 6: Primorial Scaling of Structural Resistance**
 
 | Primorial | Map Resolution | "Clean" Failure Rate | Structural Improvement |
 | :-------- | :------------- | :------------------- | :--------------------- |
-| $P_1 \#$  | **Mod 6**      | **1.4488%**          | Baseline               |
-| $P_2 \#$  | **Mod 30**     | **0.1395%**          | 10x Smoother           |
-| $P_3 \#$  | **Mod 210**    | **0.00008%**         | 1,700x Smoother        |
+| $P_1$  | **Mod 6**      | **1.4488%**          | Baseline               |
+| $P_2$  | **Mod 30**     | **0.1395%**          | 10x Smoother           |
+| $P_3$  | **Mod 210**    | **0.00008%**         | 1,700x Smoother        |
 
 ![Alt text](./Result/PLR_Hierarchy_of_Resistance.png "Resistance Hierarchy")
 _Figure 4: The Hierarchy of Resistance. A logarithmic comparison of structural failure rates across Primorial resolutions. While standard algebra treats all coprime residues as equally "allowed," the PLR analysis reveals a steep stability gradient. The "Vacuum" at Mod 210 offers 1,700x less resistance than the Mod 6 baseline, validating the existence of a "Superconductor" channel for prime formation_
 
 _Distinction from Wheel Factorization:_
-While the underlying primorial structure aligns with the matrix methods of Maier (1985), this research diverges by quantifying the structural resistance of specific residue channels ('Messiness'). Standard wheels treat all coprime residues as equiprobable candidates. In contrast, the PLR analysis demonstrates that these residues possess distinct **Structural Resistances**. The "Clean Channel" ($0 \pmod{P\#}$) is not merely a survivor of the wheel; it is a privileged geometric state where the density of composite failures collapses to near-zero ($10^{-5}\%$), creating a **Geometric Sieve** that prioritizes candidates based on structural stability rather than simple coprimality.
+While the underlying primorial structure aligns with the matrix methods of Maier (1985), this research diverges by quantifying the structural resistance of specific residue channels ('Messiness'). Standard wheels treat all coprime residues as equiprobable candidates. In contrast, the PLR analysis demonstrates that these residues possess distinct **Structural Resistances**. The "Clean Channel" ($0 \pmod{P_{k_{th}}}$) is not merely a survivor of the wheel; it is a privileged geometric state where the density of composite failures collapses to near-zero ($10^{-5}\%$), creating a **Geometric Sieve** that prioritizes candidates based on structural stability rather than simple coprimality.
 
 ### 6.3. The Arithmetic Mechanism (The "Sieve of Distances")
 
@@ -348,7 +348,7 @@ A "Law I Failure" occurs when the distance to the nearest prime ($k_{min}$) is *
 
 A potential critique of fixed-modulus sieving is that prime gaps eventually grow arbitrarily large ($g \to \infty$), potentially exceeding the "safe zone" of the sieve. However, the PLR framework is fractal.
 
-We define the **Vacuum Horizon ($H_k$)** as the first un-filtered composite distance in a Primorial $P_k\#$, given by $H_k = p_{k+1}^2$.
+We define the **Vacuum Horizon ($H_k$)** as the first un-filtered composite distance in a Primorial $P_{k_{th}}$, given by $H_k = p_{k+1}^2$.
 We contrast this with the **Average Gap ($g_{avg}$)**, which scales as $\approx \ln x$.
 
 Since $H_k$ grows quadratically relative to the basis primes, while gaps grow logarithmically ($p_{k+1}^2 \gg \ln x$), the Structural Vacuum can be maintained indefinitely by scaling the Primorial resolution. As demonstrated in Figure 5, the quadratic expansion of the Vacuum Horizon rapidly outpaces the logarithmic growth of prime gaps, strictly forbidding the 'Large Gap' critique.
