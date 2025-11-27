@@ -1,0 +1,16 @@
+INPUT (N)  | CONSTRUCTED PRIME    | TRUTH CHECK    
+============================================================
+100        | 101                  | PASS           
+1000       | 1009                 | PASS           
+5000       | 5003                 | PASS           
+100000     | 100003               | PASS           
+1000000    | 1000003              | PASS           
+============================================================
+Specific Forensic Test on a Known Imposter Zone (around 120):
+
+[INPUT] N = 314
+[SETUP] Loaded 9 Structural Filters (Max Filter: 23)
+[SETUP] Safe Horizon: 23^2 = 529
+------------------------------------------------------------
+CONSTRUCTED PRIME: 317
+============================================================

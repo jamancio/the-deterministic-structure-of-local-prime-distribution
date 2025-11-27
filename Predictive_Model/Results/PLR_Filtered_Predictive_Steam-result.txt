@@ -1,0 +1,546 @@
+GAP  | CANDIDATE  | ANCHOR   | PREDICTION STATUS    | TRUTH     
+=====================================================================================
+
+[ PRIME: 5 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 7          | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 11         | 4        | Candidate Option     | PRIME     
++8   | 13         | 0        | Candidate Option     | PRIME     
++12  | 17         | 4        | Candidate Option     | PRIME     
++14  | 19         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 7 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 11         | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 13         | 2        | Candidate Option     | PRIME     
++10  | 17         | 0        | Candidate Option     | PRIME     
++12  | 19         | 2        | Candidate Option     | PRIME     
++16  | 23         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 11 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 13         | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 17         | 4        | Candidate Option     | PRIME     
++8   | 19         | 0        | Candidate Option     | PRIME     
++12  | 23         | 4        | Candidate Option     | PRIME     
++14  | 25         | 0        | Candidate Option     | Composite 
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 13 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 17         | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 19         | 2        | Candidate Option     | PRIME     
++10  | 23         | 0        | Candidate Option     | PRIME     
++12  | 25         | 2        | Candidate Option     | Composite 
++16  | 29         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 17 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 19         | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 23         | 4        | Candidate Option     | PRIME     
++8   | 25         | 0        | Candidate Option     | Composite 
++12  | 29         | 4        | Candidate Option     | PRIME     
++14  | 31         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 19 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 23         | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 25         | 2        | Candidate Option     | Composite 
++10  | 29         | 0        | Candidate Option     | PRIME     
++12  | 31         | 2        | Candidate Option     | PRIME     
++16  | 35         | 0        | Candidate Option     | Composite 
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 23 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 25         | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 29         | 4        | Candidate Option     | PRIME     
++8   | 31         | 0        | Candidate Option     | PRIME     
++12  | 35         | 4        | Candidate Option     | Composite 
++14  | 37         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 29 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 31         | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 35         | 4        | Candidate Option     | Composite 
++8   | 37         | 0        | Candidate Option     | PRIME     
++12  | 41         | 4        | Candidate Option     | PRIME     
++14  | 43         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 31 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 35         | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 37         | 2        | Candidate Option     | PRIME     
++10  | 41         | 0        | Candidate Option     | PRIME     
++12  | 43         | 2        | Candidate Option     | PRIME     
++16  | 47         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 37 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 41         | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 43         | 2        | Candidate Option     | PRIME     
++10  | 47         | 0        | Candidate Option     | PRIME     
++12  | 49         | 2        | Candidate Option     | Composite 
++16  | 53         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 41 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 43         | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 47         | 4        | Candidate Option     | PRIME     
++8   | 49         | 0        | Candidate Option     | Composite 
++12  | 53         | 4        | Candidate Option     | PRIME     
++14  | 55         | 0        | Candidate Option     | Composite 
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 43 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 47         | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 49         | 2        | Candidate Option     | Composite 
++10  | 53         | 0        | Candidate Option     | PRIME     
++12  | 55         | 2        | Candidate Option     | Composite 
++16  | 59         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 47 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 49         | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 53         | 4        | Candidate Option     | PRIME     
++8   | 55         | 0        | Candidate Option     | Composite 
++12  | 59         | 4        | Candidate Option     | PRIME     
++14  | 61         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 53 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 55         | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 59         | 4        | Candidate Option     | PRIME     
++8   | 61         | 0        | Candidate Option     | PRIME     
++12  | 65         | 4        | Candidate Option     | Composite 
++14  | 67         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 59 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 61         | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 65         | 4        | Candidate Option     | Composite 
++8   | 67         | 0        | Candidate Option     | PRIME     
++12  | 71         | 4        | Candidate Option     | PRIME     
++14  | 73         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 61 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 65         | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 67         | 2        | Candidate Option     | PRIME     
++10  | 71         | 0        | Candidate Option     | PRIME     
++12  | 73         | 2        | Candidate Option     | PRIME     
++16  | 77         | 0        | Candidate Option     | Composite 
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 67 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 71         | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 73         | 2        | Candidate Option     | PRIME     
++10  | 77         | 0        | Candidate Option     | Composite 
++12  | 79         | 2        | Candidate Option     | PRIME     
++16  | 83         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 71 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 73         | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 77         | 4        | Candidate Option     | Composite 
++8   | 79         | 0        | Candidate Option     | PRIME     
++12  | 83         | 4        | Candidate Option     | PRIME     
++14  | 85         | 0        | Candidate Option     | Composite 
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 73 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 77         | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 79         | 2        | Candidate Option     | PRIME     
++10  | 83         | 0        | Candidate Option     | PRIME     
++12  | 85         | 2        | Candidate Option     | Composite 
++16  | 89         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 79 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 83         | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 85         | 2        | Candidate Option     | Composite 
++10  | 89         | 0        | Candidate Option     | PRIME     
++12  | 91         | 2        | Candidate Option     | Composite 
++16  | 95         | 0        | Candidate Option     | Composite 
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 83 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 85         | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 89         | 4        | Candidate Option     | PRIME     
++8   | 91         | 0        | Candidate Option     | Composite 
++12  | 95         | 4        | Candidate Option     | Composite 
++14  | 97         | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 89 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 91         | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 95         | 4        | Candidate Option     | Composite 
++8   | 97         | 0        | Candidate Option     | PRIME     
++12  | 101        | 4        | Candidate Option     | PRIME     
++14  | 103        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 97 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 101        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 103        | 2        | Candidate Option     | PRIME     
++10  | 107        | 0        | Candidate Option     | PRIME     
++12  | 109        | 2        | Candidate Option     | PRIME     
++16  | 113        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 101 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 103        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 107        | 4        | Candidate Option     | PRIME     
++8   | 109        | 0        | Candidate Option     | PRIME     
++12  | 113        | 4        | Candidate Option     | PRIME     
++14  | 115        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 103 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 107        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 109        | 2        | Candidate Option     | PRIME     
++10  | 113        | 0        | Candidate Option     | PRIME     
++12  | 115        | 2        | Candidate Option     | Composite 
++16  | 119        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 107 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 109        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 113        | 4        | Candidate Option     | PRIME     
++8   | 115        | 0        | Candidate Option     | Composite 
++12  | 119        | 4        | Candidate Option     | Composite 
++14  | 121        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 109 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 113        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 115        | 2        | Candidate Option     | Composite 
++10  | 119        | 0        | Candidate Option     | Composite 
++12  | 121        | 2        | Candidate Option     | Composite 
++16  | 125        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 113 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 115        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 119        | 4        | Candidate Option     | Composite 
++8   | 121        | 0        | Candidate Option     | Composite 
++12  | 125        | 4        | Candidate Option     | Composite 
++14  | 127        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 127 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 131        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 133        | 2        | Candidate Option     | Composite 
++10  | 137        | 0        | Candidate Option     | PRIME     
++12  | 139        | 2        | Candidate Option     | PRIME     
++16  | 143        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 131 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 133        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 137        | 4        | Candidate Option     | PRIME     
++8   | 139        | 0        | Candidate Option     | PRIME     
++12  | 143        | 4        | Candidate Option     | Composite 
++14  | 145        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 137 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 139        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 143        | 4        | Candidate Option     | Composite 
++8   | 145        | 0        | Candidate Option     | Composite 
++12  | 149        | 4        | Candidate Option     | PRIME     
++14  | 151        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 139 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 143        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 145        | 2        | Candidate Option     | Composite 
++10  | 149        | 0        | Candidate Option     | PRIME     
++12  | 151        | 2        | Candidate Option     | PRIME     
++16  | 155        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 149 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 151        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 155        | 4        | Candidate Option     | Composite 
++8   | 157        | 0        | Candidate Option     | PRIME     
++12  | 161        | 4        | Candidate Option     | Composite 
++14  | 163        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 151 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 155        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 157        | 2        | Candidate Option     | PRIME     
++10  | 161        | 0        | Candidate Option     | Composite 
++12  | 163        | 2        | Candidate Option     | PRIME     
++16  | 167        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 157 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 161        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 163        | 2        | Candidate Option     | PRIME     
++10  | 167        | 0        | Candidate Option     | PRIME     
++12  | 169        | 2        | Candidate Option     | Composite 
++16  | 173        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 163 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 167        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 169        | 2        | Candidate Option     | Composite 
++10  | 173        | 0        | Candidate Option     | PRIME     
++12  | 175        | 2        | Candidate Option     | Composite 
++16  | 179        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 167 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 169        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 173        | 4        | Candidate Option     | PRIME     
++8   | 175        | 0        | Candidate Option     | Composite 
++12  | 179        | 4        | Candidate Option     | PRIME     
++14  | 181        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 173 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 175        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 179        | 4        | Candidate Option     | PRIME     
++8   | 181        | 0        | Candidate Option     | PRIME     
++12  | 185        | 4        | Candidate Option     | Composite 
++14  | 187        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 179 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 181        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 185        | 4        | Candidate Option     | Composite 
++8   | 187        | 0        | Candidate Option     | Composite 
++12  | 191        | 4        | Candidate Option     | PRIME     
++14  | 193        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 181 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 185        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 187        | 2        | Candidate Option     | Composite 
++10  | 191        | 0        | Candidate Option     | PRIME     
++12  | 193        | 2        | Candidate Option     | PRIME     
++16  | 197        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 191 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 193        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 197        | 4        | Candidate Option     | PRIME     
++8   | 199        | 0        | Candidate Option     | PRIME     
++12  | 203        | 4        | Candidate Option     | Composite 
++14  | 205        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 193 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 197        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 199        | 2        | Candidate Option     | PRIME     
++10  | 203        | 0        | Candidate Option     | Composite 
++12  | 205        | 2        | Candidate Option     | Composite 
++16  | 209        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 197 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 199        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 203        | 4        | Candidate Option     | Composite 
++8   | 205        | 0        | Candidate Option     | Composite 
++12  | 209        | 4        | Candidate Option     | Composite 
++14  | 211        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 199 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 203        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 205        | 2        | Candidate Option     | Composite 
++10  | 209        | 0        | Candidate Option     | Composite 
++12  | 211        | 2        | Candidate Option     | PRIME     
++16  | 215        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 211 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 215        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 217        | 2        | Candidate Option     | Composite 
++10  | 221        | 0        | Candidate Option     | Composite 
++12  | 223        | 2        | Candidate Option     | PRIME     
++16  | 227        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 223 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 227        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 229        | 2        | Candidate Option     | PRIME     
++10  | 233        | 0        | Candidate Option     | PRIME     
++12  | 235        | 2        | Candidate Option     | Composite 
++16  | 239        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 227 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 229        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 233        | 4        | Candidate Option     | PRIME     
++8   | 235        | 0        | Candidate Option     | Composite 
++12  | 239        | 4        | Candidate Option     | PRIME     
++14  | 241        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 229 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 233        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 235        | 2        | Candidate Option     | Composite 
++10  | 239        | 0        | Candidate Option     | PRIME     
++12  | 241        | 2        | Candidate Option     | PRIME     
++16  | 245        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 233 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 235        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 239        | 4        | Candidate Option     | PRIME     
++8   | 241        | 0        | Candidate Option     | PRIME     
++12  | 245        | 4        | Candidate Option     | Composite 
++14  | 247        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 239 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 241        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 245        | 4        | Candidate Option     | Composite 
++8   | 247        | 0        | Candidate Option     | Composite 
++12  | 251        | 4        | Candidate Option     | PRIME     
++14  | 253        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 241 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 245        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 247        | 2        | Candidate Option     | Composite 
++10  | 251        | 0        | Candidate Option     | PRIME     
++12  | 253        | 2        | Candidate Option     | Composite 
++16  | 257        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 251 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 253        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 257        | 4        | Candidate Option     | PRIME     
++8   | 259        | 0        | Candidate Option     | Composite 
++12  | 263        | 4        | Candidate Option     | PRIME     
++14  | 265        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 257 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 259        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 263        | 4        | Candidate Option     | PRIME     
++8   | 265        | 0        | Candidate Option     | Composite 
++12  | 269        | 4        | Candidate Option     | PRIME     
++14  | 271        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 263 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 265        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 269        | 4        | Candidate Option     | PRIME     
++8   | 271        | 0        | Candidate Option     | PRIME     
++12  | 275        | 4        | Candidate Option     | Composite 
++14  | 277        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 269 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 271        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 275        | 4        | Candidate Option     | Composite 
++8   | 277        | 0        | Candidate Option     | PRIME     
++12  | 281        | 4        | Candidate Option     | PRIME     
++14  | 283        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 271 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 275        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 277        | 2        | Candidate Option     | PRIME     
++10  | 281        | 0        | Candidate Option     | PRIME     
++12  | 283        | 2        | Candidate Option     | PRIME     
++16  | 287        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 277 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 281        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 283        | 2        | Candidate Option     | PRIME     
++10  | 287        | 0        | Candidate Option     | Composite 
++12  | 289        | 2        | Candidate Option     | Composite 
++16  | 293        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 281 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 283        | 0        | >>> PRIMARY PREDICTION (SUCCESS) | PRIME     
++6   | 287        | 4        | Candidate Option     | Composite 
++8   | 289        | 0        | Candidate Option     | Composite 
++12  | 293        | 4        | Candidate Option     | PRIME     
++14  | 295        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+[ PRIME: 283 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++4   | 287        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 289        | 2        | Candidate Option     | Composite 
++10  | 293        | 0        | Candidate Option     | PRIME     
++12  | 295        | 2        | Candidate Option     | Composite 
++16  | 299        | 0        | Candidate Option     | Composite 
+... (Noise Removed: 3/8 | Sieve Efficiency: 37.5%)
+
+[ PRIME: 293 ] generating filtered stream...
+-------------------------------------------------------------------------------------
++2   | 295        | 0        | >>> PRIMARY PREDICTION (FAIL) | Composite 
++6   | 299        | 4        | Candidate Option     | Composite 
++8   | 301        | 0        | Candidate Option     | Composite 
++12  | 305        | 4        | Candidate Option     | Composite 
++14  | 307        | 0        | Candidate Option     | PRIME     
+... (Noise Removed: 2/7 | Sieve Efficiency: 28.6%)
+
+=====================================================================================
+ANALYSIS: The list above shows ONLY what the PLR Model 'sees'.
+Notice that Composites (like 25, 35) appear as valid candidates.

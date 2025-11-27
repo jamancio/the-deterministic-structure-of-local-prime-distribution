@@ -1,0 +1,782 @@
+AP  | CANDIDATE  | ANCHOR   | PLR DECISION       | TRUTH      | NOTES
+====================================================================================================
+
+[ PRIME: 5 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 7          | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 9          | 2        | REJECT             | Composite  | 
++6   | 11         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 13         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 15         | 2        | REJECT             | Composite  | 
++12  | 17         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 19         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 21         | 2        | REJECT             | Composite  | 
++18  | 23         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 25         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
+
+[ PRIME: 7 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 9          | 4        | REJECT             | Composite  | 
++4   | 11         | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 13         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 15         | 4        | REJECT             | Composite  | 
++10  | 17         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 19         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 21         | 4        | REJECT             | Composite  | 
++16  | 23         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 25         | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 27         | 4        | REJECT             | Composite  | 
+
+[ PRIME: 11 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 13         | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 15         | 2        | REJECT             | Composite  | 
++6   | 17         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 19         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 21         | 2        | REJECT             | Composite  | 
++12  | 23         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 25         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++16  | 27         | 2        | REJECT             | Composite  | 
++18  | 29         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 31         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 13 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 15         | 4        | REJECT             | Composite  | 
++4   | 17         | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 19         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 21         | 4        | REJECT             | Composite  | 
++10  | 23         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 25         | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 27         | 4        | REJECT             | Composite  | 
++16  | 29         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 31         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 33         | 4        | REJECT             | Composite  | 
+
+[ PRIME: 17 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 19         | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 21         | 2        | REJECT             | Composite  | 
++6   | 23         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 25         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 27         | 2        | REJECT             | Composite  | 
++12  | 29         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 31         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 33         | 2        | REJECT             | Composite  | 
++18  | 35         | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 37         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 19 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 21         | 4        | REJECT             | Composite  | 
++4   | 23         | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 25         | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 27         | 4        | REJECT             | Composite  | 
++10  | 29         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 31         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 33         | 4        | REJECT             | Composite  | 
++16  | 35         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++18  | 37         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 39         | 4        | REJECT             | Composite  | 
+
+[ PRIME: 23 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 25         | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 27         | 2        | REJECT             | Composite  | 
++6   | 29         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 31         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 33         | 2        | REJECT             | Composite  | 
++12  | 35         | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 37         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 39         | 2        | REJECT             | Composite  | 
++18  | 41         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 43         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 29 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 31         | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 33         | 2        | REJECT             | Composite  | 
++6   | 35         | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 37         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 39         | 2        | REJECT             | Composite  | 
++12  | 41         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 43         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 45         | 2        | REJECT             | Composite  | 
++18  | 47         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 49         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
+
+[ PRIME: 31 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 33         | 4        | REJECT             | Composite  | 
++4   | 35         | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++6   | 37         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 39         | 4        | REJECT             | Composite  | 
++10  | 41         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 43         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 45         | 4        | REJECT             | Composite  | 
++16  | 47         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 49         | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 51         | 4        | REJECT             | Composite  | 
+
+[ PRIME: 37 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 39         | 4        | REJECT             | Composite  | 
++4   | 41         | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 43         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 45         | 4        | REJECT             | Composite  | 
++10  | 47         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 49         | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 51         | 4        | REJECT             | Composite  | 
++16  | 53         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 55         | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 57         | 4        | REJECT             | Composite  | 
+
+[ PRIME: 41 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 43         | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 45         | 2        | REJECT             | Composite  | 
++6   | 47         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 49         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 51         | 2        | REJECT             | Composite  | 
++12  | 53         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 55         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++16  | 57         | 2        | REJECT             | Composite  | 
++18  | 59         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 61         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 43 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 45         | 4        | REJECT             | Composite  | 
++4   | 47         | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 49         | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 51         | 4        | REJECT             | Composite  | 
++10  | 53         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 55         | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 57         | 4        | REJECT             | Composite  | 
++16  | 59         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 61         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 63         | 4        | REJECT             | Composite  | 
+
+[ PRIME: 47 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 49         | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 51         | 2        | REJECT             | Composite  | 
++6   | 53         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 55         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 57         | 2        | REJECT             | Composite  | 
++12  | 59         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 61         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 63         | 2        | REJECT             | Composite  | 
++18  | 65         | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 67         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 53 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 55         | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 57         | 2        | REJECT             | Composite  | 
++6   | 59         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 61         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 63         | 2        | REJECT             | Composite  | 
++12  | 65         | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 67         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 69         | 2        | REJECT             | Composite  | 
++18  | 71         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 73         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 59 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 61         | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 63         | 2        | REJECT             | Composite  | 
++6   | 65         | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 67         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 69         | 2        | REJECT             | Composite  | 
++12  | 71         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 73         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 75         | 2        | REJECT             | Composite  | 
++18  | 77         | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 79         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 61 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 63         | 4        | REJECT             | Composite  | 
++4   | 65         | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++6   | 67         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 69         | 4        | REJECT             | Composite  | 
++10  | 71         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 73         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 75         | 4        | REJECT             | Composite  | 
++16  | 77         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++18  | 79         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 81         | 4        | REJECT             | Composite  | 
+
+[ PRIME: 67 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 69         | 4        | REJECT             | Composite  | 
++4   | 71         | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 73         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 75         | 4        | REJECT             | Composite  | 
++10  | 77         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++12  | 79         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 81         | 4        | REJECT             | Composite  | 
++16  | 83         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 85         | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 87         | 4        | REJECT             | Composite  | 
+
+[ PRIME: 71 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 73         | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 75         | 2        | REJECT             | Composite  | 
++6   | 77         | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 79         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 81         | 2        | REJECT             | Composite  | 
++12  | 83         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 85         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++16  | 87         | 2        | REJECT             | Composite  | 
++18  | 89         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 91         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
+
+[ PRIME: 73 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 75         | 4        | REJECT             | Composite  | 
++4   | 77         | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++6   | 79         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 81         | 4        | REJECT             | Composite  | 
++10  | 83         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 85         | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 87         | 4        | REJECT             | Composite  | 
++16  | 89         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 91         | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 93         | 4        | REJECT             | Composite  | 
+
+[ PRIME: 79 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 81         | 4        | REJECT             | Composite  | 
++4   | 83         | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 85         | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 87         | 4        | REJECT             | Composite  | 
++10  | 89         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 91         | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 93         | 4        | REJECT             | Composite  | 
++16  | 95         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++18  | 97         | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 99         | 4        | REJECT             | Composite  | 
+
+[ PRIME: 83 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 85         | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 87         | 2        | REJECT             | Composite  | 
++6   | 89         | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 91         | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 93         | 2        | REJECT             | Composite  | 
++12  | 95         | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 97         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 99         | 2        | REJECT             | Composite  | 
++18  | 101        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 103        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 89 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 91         | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 93         | 2        | REJECT             | Composite  | 
++6   | 95         | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 97         | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 99         | 2        | REJECT             | Composite  | 
++12  | 101        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 103        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 105        | 2        | REJECT             | Composite  | 
++18  | 107        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 109        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 97 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 99         | 4        | REJECT             | Composite  | 
++4   | 101        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 103        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 105        | 4        | REJECT             | Composite  | 
++10  | 107        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 109        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 111        | 4        | REJECT             | Composite  | 
++16  | 113        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 115        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 117        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 101 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 103        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 105        | 2        | REJECT             | Composite  | 
++6   | 107        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 109        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 111        | 2        | REJECT             | Composite  | 
++12  | 113        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 115        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++16  | 117        | 2        | REJECT             | Composite  | 
++18  | 119        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 121        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
+
+[ PRIME: 103 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 105        | 4        | REJECT             | Composite  | 
++4   | 107        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 109        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 111        | 4        | REJECT             | Composite  | 
++10  | 113        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 115        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 117        | 4        | REJECT             | Composite  | 
++16  | 119        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++18  | 121        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 123        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 107 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 109        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 111        | 2        | REJECT             | Composite  | 
++6   | 113        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 115        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 117        | 2        | REJECT             | Composite  | 
++12  | 119        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 121        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++16  | 123        | 2        | REJECT             | Composite  | 
++18  | 125        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 127        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 109 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 111        | 4        | REJECT             | Composite  | 
++4   | 113        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 115        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 117        | 4        | REJECT             | Composite  | 
++10  | 119        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++12  | 121        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 123        | 4        | REJECT             | Composite  | 
++16  | 125        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++18  | 127        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 129        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 113 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 115        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 117        | 2        | REJECT             | Composite  | 
++6   | 119        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 121        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 123        | 2        | REJECT             | Composite  | 
++12  | 125        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 127        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 129        | 2        | REJECT             | Composite  | 
++18  | 131        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 133        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
+
+[ PRIME: 127 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 129        | 4        | REJECT             | Composite  | 
++4   | 131        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 133        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 135        | 4        | REJECT             | Composite  | 
++10  | 137        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 139        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 141        | 4        | REJECT             | Composite  | 
++16  | 143        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++18  | 145        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 147        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 131 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 133        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 135        | 2        | REJECT             | Composite  | 
++6   | 137        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 139        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 141        | 2        | REJECT             | Composite  | 
++12  | 143        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 145        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++16  | 147        | 2        | REJECT             | Composite  | 
++18  | 149        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 151        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 137 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 139        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 141        | 2        | REJECT             | Composite  | 
++6   | 143        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 145        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 147        | 2        | REJECT             | Composite  | 
++12  | 149        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 151        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 153        | 2        | REJECT             | Composite  | 
++18  | 155        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 157        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 139 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 141        | 4        | REJECT             | Composite  | 
++4   | 143        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++6   | 145        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 147        | 4        | REJECT             | Composite  | 
++10  | 149        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 151        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 153        | 4        | REJECT             | Composite  | 
++16  | 155        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++18  | 157        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 159        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 149 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 151        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 153        | 2        | REJECT             | Composite  | 
++6   | 155        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 157        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 159        | 2        | REJECT             | Composite  | 
++12  | 161        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 163        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 165        | 2        | REJECT             | Composite  | 
++18  | 167        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 169        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
+
+[ PRIME: 151 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 153        | 4        | REJECT             | Composite  | 
++4   | 155        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++6   | 157        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 159        | 4        | REJECT             | Composite  | 
++10  | 161        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++12  | 163        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 165        | 4        | REJECT             | Composite  | 
++16  | 167        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 169        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 171        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 157 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 159        | 4        | REJECT             | Composite  | 
++4   | 161        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++6   | 163        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 165        | 4        | REJECT             | Composite  | 
++10  | 167        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 169        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 171        | 4        | REJECT             | Composite  | 
++16  | 173        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 175        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 177        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 163 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 165        | 4        | REJECT             | Composite  | 
++4   | 167        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 169        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 171        | 4        | REJECT             | Composite  | 
++10  | 173        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 175        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 177        | 4        | REJECT             | Composite  | 
++16  | 179        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 181        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 183        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 167 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 169        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 171        | 2        | REJECT             | Composite  | 
++6   | 173        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 175        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 177        | 2        | REJECT             | Composite  | 
++12  | 179        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 181        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 183        | 2        | REJECT             | Composite  | 
++18  | 185        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 187        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
+
+[ PRIME: 173 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 175        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 177        | 2        | REJECT             | Composite  | 
++6   | 179        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 181        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 183        | 2        | REJECT             | Composite  | 
++12  | 185        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 187        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++16  | 189        | 2        | REJECT             | Composite  | 
++18  | 191        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 193        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 179 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 181        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 183        | 2        | REJECT             | Composite  | 
++6   | 185        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 187        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 189        | 2        | REJECT             | Composite  | 
++12  | 191        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 193        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 195        | 2        | REJECT             | Composite  | 
++18  | 197        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 199        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 181 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 183        | 4        | REJECT             | Composite  | 
++4   | 185        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++6   | 187        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 189        | 4        | REJECT             | Composite  | 
++10  | 191        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 193        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 195        | 4        | REJECT             | Composite  | 
++16  | 197        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 199        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 201        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 191 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 193        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 195        | 2        | REJECT             | Composite  | 
++6   | 197        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 199        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 201        | 2        | REJECT             | Composite  | 
++12  | 203        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 205        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++16  | 207        | 2        | REJECT             | Composite  | 
++18  | 209        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 211        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 193 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 195        | 4        | REJECT             | Composite  | 
++4   | 197        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 199        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 201        | 4        | REJECT             | Composite  | 
++10  | 203        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++12  | 205        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 207        | 4        | REJECT             | Composite  | 
++16  | 209        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++18  | 211        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 213        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 197 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 199        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 201        | 2        | REJECT             | Composite  | 
++6   | 203        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 205        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 207        | 2        | REJECT             | Composite  | 
++12  | 209        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 211        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 213        | 2        | REJECT             | Composite  | 
++18  | 215        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 217        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
+
+[ PRIME: 199 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 201        | 4        | REJECT             | Composite  | 
++4   | 203        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++6   | 205        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 207        | 4        | REJECT             | Composite  | 
++10  | 209        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++12  | 211        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 213        | 4        | REJECT             | Composite  | 
++16  | 215        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++18  | 217        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 219        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 211 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 213        | 4        | REJECT             | Composite  | 
++4   | 215        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++6   | 217        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 219        | 4        | REJECT             | Composite  | 
++10  | 221        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++12  | 223        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 225        | 4        | REJECT             | Composite  | 
++16  | 227        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 229        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 231        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 223 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 225        | 4        | REJECT             | Composite  | 
++4   | 227        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 229        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 231        | 4        | REJECT             | Composite  | 
++10  | 233        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 235        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 237        | 4        | REJECT             | Composite  | 
++16  | 239        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 241        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 243        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 227 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 229        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 231        | 2        | REJECT             | Composite  | 
++6   | 233        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 235        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 237        | 2        | REJECT             | Composite  | 
++12  | 239        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 241        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 243        | 2        | REJECT             | Composite  | 
++18  | 245        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 247        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
+
+[ PRIME: 229 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 231        | 4        | REJECT             | Composite  | 
++4   | 233        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 235        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 237        | 4        | REJECT             | Composite  | 
++10  | 239        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 241        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 243        | 4        | REJECT             | Composite  | 
++16  | 245        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++18  | 247        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 249        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 233 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 235        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 237        | 2        | REJECT             | Composite  | 
++6   | 239        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 241        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 243        | 2        | REJECT             | Composite  | 
++12  | 245        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 247        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++16  | 249        | 2        | REJECT             | Composite  | 
++18  | 251        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 253        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
+
+[ PRIME: 239 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 241        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 243        | 2        | REJECT             | Composite  | 
++6   | 245        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 247        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 249        | 2        | REJECT             | Composite  | 
++12  | 251        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 253        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++16  | 255        | 2        | REJECT             | Composite  | 
++18  | 257        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 259        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
+
+[ PRIME: 241 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 243        | 4        | REJECT             | Composite  | 
++4   | 245        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++6   | 247        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 249        | 4        | REJECT             | Composite  | 
++10  | 251        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 253        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 255        | 4        | REJECT             | Composite  | 
++16  | 257        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 259        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 261        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 251 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 253        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 255        | 2        | REJECT             | Composite  | 
++6   | 257        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 259        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 261        | 2        | REJECT             | Composite  | 
++12  | 263        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 265        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++16  | 267        | 2        | REJECT             | Composite  | 
++18  | 269        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 271        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 257 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 259        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 261        | 2        | REJECT             | Composite  | 
++6   | 263        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 265        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 267        | 2        | REJECT             | Composite  | 
++12  | 269        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 271        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 273        | 2        | REJECT             | Composite  | 
++18  | 275        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 277        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 263 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 265        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 267        | 2        | REJECT             | Composite  | 
++6   | 269        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 271        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 273        | 2        | REJECT             | Composite  | 
++12  | 275        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 277        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 279        | 2        | REJECT             | Composite  | 
++18  | 281        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 283        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
+
+[ PRIME: 269 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 271        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 273        | 2        | REJECT             | Composite  | 
++6   | 275        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 277        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++10  | 279        | 2        | REJECT             | Composite  | 
++12  | 281        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 283        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 285        | 2        | REJECT             | Composite  | 
++18  | 287        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 289        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
+
+[ PRIME: 271 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 273        | 4        | REJECT             | Composite  | 
++4   | 275        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++6   | 277        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 279        | 4        | REJECT             | Composite  | 
++10  | 281        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 283        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 285        | 4        | REJECT             | Composite  | 
++16  | 287        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++18  | 289        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 291        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 277 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 279        | 4        | REJECT             | Composite  | 
++4   | 281        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++6   | 283        | 2        | ACCEPT             | PRIME      | << MISSED PRIME
++8   | 285        | 4        | REJECT             | Composite  | 
++10  | 287        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++12  | 289        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 291        | 4        | REJECT             | Composite  | 
++16  | 293        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++18  | 295        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 297        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 281 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 283        | 0        | ACCEPT             | PRIME      | << PREDICTED WINNER (CORRECT)
++4   | 285        | 2        | REJECT             | Composite  | 
++6   | 287        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 289        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 291        | 2        | REJECT             | Composite  | 
++12  | 293        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++14  | 295        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++16  | 297        | 2        | REJECT             | Composite  | 
++18  | 299        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 301        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
+
+[ PRIME: 283 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 285        | 4        | REJECT             | Composite  | 
++4   | 287        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++6   | 289        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 291        | 4        | REJECT             | Composite  | 
++10  | 293        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++12  | 295        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 297        | 4        | REJECT             | Composite  | 
++16  | 299        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++18  | 301        | 2        | ACCEPT             | Composite  | (Secondary Imposter)
++20  | 303        | 4        | REJECT             | Composite  | 
+
+[ PRIME: 293 ] Analyzing next 10 candidates...
+----------------------------------------------------------------------------------------------------
++2   | 295        | 0        | ACCEPT             | Composite  | << PREDICTED WINNER (IMPOSTER/FAILURE)
++4   | 297        | 2        | REJECT             | Composite  | 
++6   | 299        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++8   | 301        | 0        | ACCEPT             | Composite  | (Secondary Imposter)
++10  | 303        | 2        | REJECT             | Composite  | 
++12  | 305        | 4        | ACCEPT             | Composite  | (Secondary Imposter)
++14  | 307        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
++16  | 309        | 2        | REJECT             | Composite  | 
++18  | 311        | 4        | ACCEPT             | PRIME      | << MISSED PRIME
++20  | 313        | 0        | ACCEPT             | PRIME      | << MISSED PRIME
