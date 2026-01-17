@@ -1,0 +1,16 @@
+Dissection of the 'Clean Channel' Snipers in this gap:
+ Number  SPF                Type
+  15685    5        Sniper (P=5)
+  15689   29       Sniper (P=29)
+  15691   13       Sniper (P=13)
+  15695    5        Sniper (P=5)
+  15697   11       Sniper (P=11)
+  15701    7        Sniper (P=7)
+  15703   41  Deep Sniper (P=41)
+  15707  113 Deep Sniper (P=113)
+  15709   23       Sniper (P=23)
+  15713   19       Sniper (P=19)
+  15715    5        Sniper (P=5)
+  15719   11       Sniper (P=11)
+  15721   79  Deep Sniper (P=79)
+  15725    5        Sniper (P=5)

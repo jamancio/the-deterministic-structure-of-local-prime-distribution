@@ -1,0 +1,13 @@
+--- Radar Scan from Prime 10799 ---
+Looking for the 'Gap-Phase Lock' at +32...
+    Step (+g)  Candidate Mod 30 Mod 210 Mod 2310      Actual Status
+0           2      10801   OPEN       X        X         Mod 30 Vac
+3           8      10807   OPEN    OPEN     OPEN  IMPOSTER (Sniped)
+5          12      10811   OPEN    OPEN     OPEN  IMPOSTER (Sniped)
+6          14      10813   OPEN    OPEN        X        Mod 210 Vac
+8          18      10817   OPEN    OPEN     OPEN  IMPOSTER (Sniped)
+9          20      10819   OPEN    OPEN     OPEN  IMPOSTER (Sniped)
+11         24      10823   OPEN    OPEN     OPEN  IMPOSTER (Sniped)
+14         30      10829   OPEN       X        X         Mod 30 Vac
+15         32      10831   OPEN    OPEN     OPEN     TARGET (PRIME)
+18         38      10837   OPEN    OPEN     OPEN     TARGET (PRIME)
