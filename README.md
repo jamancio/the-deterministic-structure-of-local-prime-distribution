@@ -118,7 +118,7 @@ Based on these constraints, the predictive engine is elegantly simple: **Among g
 
 This algorithm achieves **100% accuracy** across all 50 million tested primes.
 
-### 2.3. The Minimum Gap Principle (v24.0 Final)
+### 2.3. The Minimum Gap Principle
 
 The structural validity of the Modulo-Phase Lock was originally discovered through empirical testing and has now been formalized as the final PLR principle. The **v24.0 "Minimum Gap" Engine** is the definitive implementation.
 
